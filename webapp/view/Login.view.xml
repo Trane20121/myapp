@@ -1,0 +1,43 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:card="sap.f.cards" xmlns:f="sap.f" controllerName="sap.ui.demo.walkthrough.controller.Login" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+    <Page id="login" showHeader="false" backgroundDesign="Transparent">
+          <VBox class="outer">
+        <f:Card class="middle" width="300px" headerPosition="Top">
+            <f:header>
+                <card:Header  class="inner" title="Login" subtitle="Insert your Email and Password" iconSrc="sap-icon://account" />
+            </f:header>
+            <f:content>
+                  <VBox height="200px" class="sapUiSmallMargin" justifyContent="SpaceBetween">
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Text text="Email :" />
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Input id="mail" type="Email"/>
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Text text="Password :" />
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Input id="password" type="Password"/>
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Button id="go" text="Log In" width="100px" press=".onLogin"  type="Emphasized" />
+                        </items>
+                    </HBox>
+                </VBox>
+            </f:content>
+        </f:Card>
+        <!-- <footer>
+            <Bar design="Footer"/>
+        </footer> -->
+        </VBox>
+    </Page>
+</mvc:View>

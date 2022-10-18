@@ -1,0 +1,83 @@
+<mvc:View xmlns:unified="sap.ui.unified" xmlns:internal="sap.landvisz.internal" xmlns:f="sap.f" xmlns:u="sap.uxap" xmlns:core="sap.ui.core" controllerName="sap.ui.demo.walkthrough.controller.Home" xmlns="sap.m" xmlns:fb="sap.ui.comp.filterbar" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+    <Page id="vacc">
+        <customHeader>
+            <Toolbar>
+                <Button icon="sap-icon://log" press="onLogOff" text="Log Out" type="Emphasized" />
+                <ToolbarSpacer />
+                <Title text="Drugs Tracker" level="Auto" />
+                <ToolbarSpacer />
+            </Toolbar>
+        </customHeader>
+        <subHeader>
+            <Toolbar>
+                <ToolbarSpacer />
+                <RadioButton id="rbtable" text="Table Format" selected="true" groupName="GroupA" valueState="Information" select="onSelect" />
+                <RadioButton id="rbcalendar" text="Calendar" groupName="GroupA" selected="false" valueState="Error" select="onSelect" />
+                <ToolbarSpacer />
+            </Toolbar>
+        </subHeader>
+        <Table id="table" items="{vacc>/}" visible="true">
+            <columns>
+                <Column>
+                    <Text text="Drug Name" />
+                </Column>
+                <Column>
+                    <Text text="Company" />
+                </Column>
+                <Column>
+                    <Text text="Data" />
+                </Column>
+                <Column>
+                    <Text text="Frequency" />
+                </Column>
+            </columns>
+            <ColumnListItem vAlign="Bottom">
+                <cells>
+                    <Text text="{vacc>name}" />
+                    <Text text="{vacc>company}" />
+                    <Text text="{path: 'vacc>date'}" />
+                    <Text text="{vacc>type}" />
+                </cells>
+            </ColumnListItem>
+        </Table>
+        <VBox id="calendar" class="sapUiSmallMargin" visible="false">
+            <HBox wrap="Wrap">
+                <!-- <VBox class="sapUiSmallMarginEnd">
+				<Label text="Drag and Drop" labelFor="enableAppointmentsDragAndDrop" />
+
+				<Switch id="enableAppointmentsDragAndDrop" state="{settings>/enableAppointmentsDragAndDrop}"/>
+			</VBox>
+
+			<VBox class="sapUiSmallMarginEnd">
+				<Label text="Resize Appointments" labelFor="enableAppointmentsResize" />
+
+				<Switch id="enableAppointmentsResize" state="{settings>/enableAppointmentsResize}"/>
+			</VBox>
+
+			<VBox>
+				<Label text="Create Appointments" labelFor="enableAppointmentsCreate" />
+
+				<Switch id="enableAppointmentsCreate" state="{settings>/enableAppointmentsCreate}"/>
+			</VBox> -->
+            </HBox>
+            <SinglePlanningCalendar id="SPC1" class="sapUiSmallMarginTop" title="Somministration Calendar" appointments="{path: 'vacc>/'}">
+                <views>
+                    <SinglePlanningCalendarDayView key="DayView" title="Day" />
+                    <SinglePlanningCalendarWorkWeekView key="WorkWeekView" title="Work Week" />
+                    <SinglePlanningCalendarWeekView key="WeekView" title="Week" />
+                    <SinglePlanningCalendarMonthView key="MonthView" title="Month" />
+                </views>
+                <appointments>
+                    <unified:CalendarAppointment
+                        title="{vacc>name}"
+                        text="{vacc>company}"
+                        type="{vacc>ctask}"
+                        icon="{vacc>icon}"
+                        startDate="{path: 'vacc>date', type:'sap.ui.model.type.Date', formatOptions: {pattern: 'dd/MM/yyyy'}}"
+                        endDate="{path: 'vacc>date', type:'sap.ui.model.type.Date', formatOptions: {pattern: 'dd/MM/yyyy'}}"
+                    />
+                </appointments>
+            </SinglePlanningCalendar>
+        </VBox>
+    </Page>
+</mvc:View>
