@@ -1,25 +1,32 @@
 sap.ui.define(
-  ["sap/ui/core/UIComponent", "sap/ui/model/json/JSONModel"],
-  function (UIComponent, JSONModel) {
+  ["sap/ui/core/UIComponent", "sap/ui/Device", "./model/models"],
+  function (UIComponent, Device, models) {
     "use strict";
-    return UIComponent.extend("sap.ui.demo.walkthrough.Component ", {
+
+    return UIComponent.extend("sap.ui.demo.walkthrough.Component", {
       metadata: {
-        interfaces: ["sap.ui.core.IAsyncContentCreation"],
-        manifest: "json",
+        manifest: "json"
       },
       init: function () {
-        // call the init function of the parent
-        UIComponent.prototype.init.apply(this, arguments);
-        // set data model
-        var oData = {
-          recipient: {
-            name: "World",
-          },
-        };
-        var oModel = new JSONModel(oData);
-        this.setModel(oModel);
+        UIComponent.prototype.init.call(this);
+        this.setModel(models.createDeviceModel(), "device");
         this.getRouter().initialize();
       },
+      getContentDensityClass: function () {
+        if (this.contentDensityClass === undefined) {
+          if (
+            document.body.classList.contains("sapUiSizeCozy") ||
+            document.body.classList.contains("sapUiSizeCompact")
+          ) {
+            this.contentDensityClass = "";
+          } else if (!Device.support.touch) {
+            this.contentDensityClass = "sapUiSizeCompact";
+          } else {
+            this.contentDensityClass = "sapUiSizeCozy";
+          }
+        }
+        return this.contentDensityClass;
+      }
     });
   }
 );
