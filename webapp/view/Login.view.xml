@@ -1,4 +1,5 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:card="sap.f.cards" xmlns:f="sap.f" controllerName="sap.ui.demo.walkthrough.controller.Login" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+<mvc:View xmlns:core="sap.ui.core" xmlns:card="sap.f.cards" xmlns:f="sap.f" controllerName="sap.ui.demo.walkthrough.controller.Login" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" 	xmlns:layout= "sap.ui.layout"
+ displayBlock="true">
     <Page id="login" showHeader="false" backgroundDesign="Transparent">
           <VBox class="outer">
         <f:Card class="middle" width="300px" headerPosition="Top">

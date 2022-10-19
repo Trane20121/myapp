@@ -33,7 +33,15 @@
     },
     "config": {
       "sample": {
-        "files": ["Home.view.xml", "Home.controller.js", "manifest.json"]
+        "files": [
+          "Home.view.xml",
+          "Home.controller.js",
+          "manifest.json",
+          "Login.view.xml",
+          "Login.controller.js",
+          "Create.fragment.xml",
+          "Details.fragment.xml"
+        ]
       }
     },
     "models": {

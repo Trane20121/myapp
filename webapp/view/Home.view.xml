@@ -42,25 +42,30 @@
         </Table>
         <VBox id="calendar" class="sapUiSmallMargin" visible="false">
             <HBox wrap="Wrap">
-                <!-- <VBox class="sapUiSmallMarginEnd">
-				<Label text="Drag and Drop" labelFor="enableAppointmentsDragAndDrop" />
-
-				<Switch id="enableAppointmentsDragAndDrop" state="{settings>/enableAppointmentsDragAndDrop}"/>
-			</VBox>
-
-			<VBox class="sapUiSmallMarginEnd">
-				<Label text="Resize Appointments" labelFor="enableAppointmentsResize" />
-
-				<Switch id="enableAppointmentsResize" state="{settings>/enableAppointmentsResize}"/>
-			</VBox>
-
-			<VBox>
-				<Label text="Create Appointments" labelFor="enableAppointmentsCreate" />
-
-				<Switch id="enableAppointmentsCreate" state="{settings>/enableAppointmentsCreate}"/>
-			</VBox> -->
+                <VBox class="sapUiSmallMarginEnd">
+                    <Label text="Drag and Drop" labelFor="enableAppointmentsDragAndDrop" />
+                    <Switch id="enableAppointmentsDragAndDrop" state="{settings>/enableAppointmentsDragAndDrop}" />
+                </VBox>
+                <VBox class="sapUiSmallMarginEnd">
+                    <Label text="Resize Appointments" labelFor="enableAppointmentsResize" />
+                    <Switch id="enableAppointmentsResize" state="{settings>/enableAppointmentsResize}" />
+                </VBox>
             </HBox>
-            <SinglePlanningCalendar id="SPC1" class="sapUiSmallMarginTop" title="Somministration Calendar" appointments="{path: 'vacc>/'}">
+            <SinglePlanningCalendar
+                id="SPC1"
+                title="Drugs Calendar"
+                appointmentDrop="handleAppointmentDrop"
+                appointmentResize="handleAppointmentResize"
+                appointmentCreate="handleAppointmentCreateDnD"
+                appointmentSelect="handleAppointmentSelect"
+                headerDateSelect="handleHeaderDateSelect"
+                startDateChange="handleStartDateChange"
+                startDate="{path: '/startDate'}"
+                appointments="{path: '/appointments'}"
+            >
+                <actions>
+                    <Button id="addNewAppointment" text="Create/Modify" press="handleAppointmentCreate" tooltip="Add new appointment" />
+                </actions>
                 <views>
                     <SinglePlanningCalendarDayView key="DayView" title="Day" />
                     <SinglePlanningCalendarWorkWeekView key="WorkWeekView" title="Work Week" />
@@ -68,14 +73,7 @@
                     <SinglePlanningCalendarMonthView key="MonthView" title="Month" />
                 </views>
                 <appointments>
-                    <unified:CalendarAppointment
-                        title="{vacc>name}"
-                        text="{vacc>company}"
-                        type="{vacc>ctask}"
-                        icon="{vacc>icon}"
-                        startDate="{path: 'vacc>date', type:'sap.ui.model.type.Date', formatOptions: {pattern: 'dd/MM/yyyy'}}"
-                        endDate="{path: 'vacc>date', type:'sap.ui.model.type.Date', formatOptions: {pattern: 'dd/MM/yyyy'}}"
-                    />
+                    <unified:CalendarAppointment title="{title}" text="{text}" type="{type}" icon="{icon}" startDate="{startDate}" endDate="{endDate}" />
                 </appointments>
             </SinglePlanningCalendar>
         </VBox>

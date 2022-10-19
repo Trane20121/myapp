@@ -9,6 +9,8 @@ sap.ui.define(
         onInit: function(){
             this.byId("mail").setValue();
             this.byId("password").setValue();
+
+            
         },
         onLogin: async function(){
             const mail = this.byId("mail").getValue().toLowerCase();
@@ -60,7 +62,6 @@ sap.ui.define(
             var oRouter = this.getOwnerComponent().getRouter()
             oRouter.navTo("home");
         }
-
       });
     }
   );
