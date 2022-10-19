@@ -2,7 +2,7 @@ sap.ui.define(
   [
     "sap/ui/core/library",
     "sap/ui/core/Fragment",
-    "sap/ui/core/mvc/Controller",
+    "./BaseController",
     "sap/ui/core/format/DateFormat",
     "sap/ui/model/json/JSONModel",
     "sap/ui/unified/library",
@@ -11,7 +11,7 @@ sap.ui.define(
   function (
     coreLibrary,
     Fragment,
-    Controller,
+    BaseController,
     DateFormat,
     JSONModel,
     unifiedLibrary,
@@ -22,7 +22,7 @@ sap.ui.define(
     var CalendarDayType = unifiedLibrary.CalendarDayType;
     var ValueState = coreLibrary.ValueState;
 
-    return Controller.extend("sap.ui.demo.walkthrough.controller.Home", {
+    return BaseController.extend("sap.ui.demo.walkthrough.controller.Home", {
       onInit: function () {
         let table = new JSONModel("../model/vacc.json");
         var oModel = new JSONModel();
@@ -284,6 +284,10 @@ sap.ui.define(
         };
         let calendar = new JSONModel(myViewConfig);
         this.getView().setModel(calendar, "view");
+      },
+
+      onBeforeRendering: function () {
+        this.getView().getParent().getParent().getParent().byId("shellBar").setVisible(true);
       },
 
       handleAppointmentSelect: function (oEvent) {

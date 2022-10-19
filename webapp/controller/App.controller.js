@@ -3,10 +3,6 @@ sap.ui.define(["./BaseController"], function (BaseController) {
 
   return BaseController.extend("sap.ui.demo.walkthrough.controller.App", {
     onInit: function () {
-      // apply content density mode to root view
-      this.getView().addStyleClass(
-        this.getOwnerComponent().getContentDensityClass()
-      );
     }
   });
 });
