@@ -1,212 +1,601 @@
-[
-  {
-    "name": "Sleep Aid",
-    "company": "SIMPLY RIGHT (Sam's West, Inc.)",
-    "date": "2023-12-13T23:21:30Z",
-    "ctask": null,
-    "type": "Yearly"
-  },
-  {
-    "name": "Oxybutynin Chloride",
-    "company": "McKesson Contract Packaging",
-    "date": "2020-10-16T02:23:41Z",
-    "ctask": null,
-    "type": "Seldom"
-  },
-  {
-    "name": "Topiramate",
-    "company": "REMEDYREPACK INC.",
-    "date": "2020-05-05T10:41:11Z",
-    "ctask": null,
-    "type": "Weekly"
-  },
-  {
-    "name": "Pollens - Trees, Mesquite, Prosopis juliflora",
-    "company": "Jubilant HollisterStier LLC",
-    "date": "2020-06-07T03:19:45Z",
-    "ctask": null,
-    "type": "Once"
-  },
-  {
-    "name": "berkley and jensen nicotine",
-    "company": "BJWC",
-    "date": "2018-12-25T09:30:24Z",
-    "ctask": null,
-    "type": "Weekly"
-  },
-  {
-    "name": "Dandruff Daily Care",
-    "company": "Family Dollar Services, Inc",
-    "date": "2021-04-29T09:32:00Z",
-    "ctask": null,
-    "type": "Yearly"
-  },
-  {
-    "name": "Omeprazole",
-    "company": "Dexcel Pharma Technologies Ltd.",
-    "date": "2018-06-07T00:34:59Z",
-    "ctask": null,
-    "type": "Seldom"
-  },
-  {
-    "name": "ZALEPLON",
-    "company": "Rebel Distributors Corp.",
-    "date": "2023-01-08T02:01:33Z",
-    "ctask": null,
-    "type": "Yearly"
-  },
-  {
-    "name": "Quetiapine fumarate",
-    "company": "Dr.Reddy's Laboratories Limited",
-    "date": "2023-04-11T08:35:25Z",
-    "ctask": null,
-    "type": "Once"
-  },
-  {
-    "name": "Botrytis cinerea",
-    "company": "Nelco Laboratories, Inc.",
-    "date": "2018-02-11T10:12:47Z",
-    "ctask": null,
-    "type": "Seldom"
-  },
-  {
-    "name": "Metformin hydrochloride",
-    "company": "Ingenus Pharmaceuticals, LLC",
-    "date": "2019-01-02T23:23:11Z",
-    "ctask": null,
-    "type": "Never"
-  },
-  {
-    "name": "SULPHUR",
-    "company": "Hyland's",
-    "date": "2022-03-28T09:57:15Z",
-    "ctask": null,
-    "type": "Yearly"
-  },
-  {
-    "name": "MBM 7 Lung Grief",
-    "company": "Apotheca Company",
-    "date": "2019-05-15T05:02:22Z",
-    "ctask": null,
-    "type": "Seldom"
-  },
-  {
-    "name": "Antibacterial Hand Towelettes",
-    "company": "Jets, Sets, & Elephants Beauty Corp.",
-    "date": "2020-11-28T15:42:13Z",
-    "ctask": null,
-    "type": "Daily"
-  },
-  {
-    "name": "Tropicamide",
-    "company": "Sandoz Inc.",
-    "date": "2022-03-02T18:35:51Z",
-    "ctask": null,
-    "type": "Once"
-  },
-  {
-    "name": "Brimonidine Tartrate",
-    "company": "Sandoz Inc",
-    "date": "2019-01-08T09:56:57Z",
-    "ctask": null,
-    "type": "Seldom"
-  },
-  {
-    "name": "Tangerine",
-    "company": "Nelco Laboratories, Inc.",
-    "date": "2023-12-24T14:51:47Z",
-    "ctask": null,
-    "type": "Yearly"
-  },
-  {
-    "name": "TOLNAFTATE ANTIFUNGAL",
-    "company": "Geri-Care Pharmaceuticals, Corp",
-    "date": "2019-03-19T09:58:22Z",
-    "ctask": null,
-    "type": "Daily"
-  },
-  {
-    "name": "FLUOROURACIL",
-    "company": "Physicians Total Care, Inc.",
-    "date": "2019-04-02T11:39:02Z",
-    "ctask": null,
-    "type": "Once"
-  },
-  {
-    "name": "Medicated Anti-Fungal Miconazole",
-    "company": "American Spraytech, LLC",
-    "date": "2018-10-11T05:45:34Z",
-    "ctask": null,
-    "type": "Daily"
-  },
-  {
-    "name": "ESIKA",
-    "company": "Ventura Corporation (San Juan, P.R)",
-    "date": "2023-01-27T20:52:59Z",
-    "ctask": null,
-    "type": "Yearly"
-  },
-  {
-    "name": "Condylomata Remedy",
-    "company": "Deseret Biologicals, Inc.",
-    "date": "2020-08-16T02:39:15Z",
-    "ctask": null,
-    "type": "Seldom"
-  },
-  {
-    "name": "Artifical Tears",
-    "company": "Kmart Corporation",
-    "date": "2020-11-29T07:22:36Z",
-    "ctask": null,
-    "type": "Yearly"
-  },
-  {
-    "name": "Dexamethasone",
-    "company": "Bryant Ranch Prepack",
-    "date": "2023-07-24T21:31:50Z",
-    "ctask": null,
-    "type": "Daily"
-  },
-  {
-    "name": "Venlafaxine hydrochloride",
-    "company": "Dr. Reddy's Laboratories Limited",
-    "date": "2019-05-27T02:02:34Z",
-    "ctask": null,
-    "type": "Often"
-  },
-  {
-    "name": "Pravastatin Sodium",
-    "company": "Mylan Pharmaceuticals Inc.",
-    "date": "2021-07-25T04:56:50Z",
-    "ctask": null,
-    "type": "Daily"
-  },
-  {
-    "name": "Collagen 6 Special Order",
-    "company": "Uriel Pharmacy Inc.",
-    "date": "2023-12-26T18:08:46Z",
-    "ctask": null,
-    "type": "Often"
-  },
-  {
-    "name": "Mirapex",
-    "company": "Boehringer Ingelheim Pharmaceuticals, Inc.",
-    "date": "2019-10-15T19:52:58Z",
-    "ctask": null,
-    "type": "Weekly"
-  },
-  {
-    "name": "Acne Treatment Kit",
-    "company": "Blue Cross Laboratories",
-    "date": "2023-08-02T12:55:23Z",
-    "ctask": null,
-    "type": "Once"
-  },
-  {
-    "name": "BLATELLA GERMANICA",
-    "company": "ALK-Abello, Inc.",
-    "date": "2020-05-07T06:24:52Z",
-    "ctask": null,
-    "type": "Yearly"
-  }
-]
+[{
+  "name": "TITANIUM DIOXIDE, ZINC OXIDE",
+  "company": "Napoleon Perdis Cosmetics, Inc",
+  "date": "25/09/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "bacitracin zinc",
+  "company": "Family Dollar Services Inc.",
+  "date": "31/07/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Diclofenac Sodium",
+  "company": "Actavis Elizabeth LLC",
+  "date": "28/09/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "OCTINOXATE and OXYBENZONE",
+  "company": "Elizabeth Arden, Inc",
+  "date": "16/01/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "Acetaminophen",
+  "company": "Family Dollar Services Inc",
+  "date": "02/12/2021",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "SODIUM FLUORIDE",
+  "company": "Mission Hills, S.A. de C.V.",
+  "date": "05/02/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "fexofenadine hydrochloride",
+  "company": "Mylan Institutional Inc.",
+  "date": "14/08/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "oseltamivir phosphate",
+  "company": "REMEDYREPACK INC.",
+  "date": "11/12/2021",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "clonidine",
+  "company": "Mylan Pharmaceuticals Inc.",
+  "date": "15/06/2022",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "Methylprednisolone Acetate",
+  "company": "Teva Parenteral Medicines, Inc.",
+  "date": "01/04/2022",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "MORPHINE SULFATE",
+  "company": "Pfizer Laboratories Div Pfizer Inc",
+  "date": "16/10/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Hydroxyzine Hydrochloride",
+  "company": "Camber Pharmaceuticals, Inc.",
+  "date": "22/05/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "TRICLOSAN",
+  "company": "Tri-Coastal Design Company Inc.",
+  "date": "02/07/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "ATORVASTATIN CALCIUM",
+  "company": "Preferred Pharmaceuticals, Inc.",
+  "date": "03/04/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Acetaminophen",
+  "company": "Kroger Company",
+  "date": "09/04/2022",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "SENNOSIDES",
+  "company": "CVS Pharmacy",
+  "date": "18/12/2021",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "propoxyphene hydrochloride and acetaminophen",
+  "company": "Mylan Pharmaceuticals Inc.",
+  "date": "29/11/2021",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "ARABICA COFFEE BEAN",
+  "company": "Washington Homeopathic Products",
+  "date": "11/04/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "SODIUM MONOFLUOROPHOSPHATE and POTASSIUM NITRATE",
+  "company": "Mission Hills S.A de C.V",
+  "date": "11/08/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "benzoyl peroxide",
+  "company": "Physicians Total Care, Inc.",
+  "date": "14/04/2022",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "ANAMIRTA COCCULUS SEED",
+  "company": "Natural Health Supply",
+  "date": "11/09/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "Heparin Sodium",
+  "company": "Cantrell Drug Company",
+  "date": "20/06/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "Fluconazole",
+  "company": "American Health Packaging",
+  "date": "10/02/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "LIDOCAINE HYDROCHLORIDE ANHYDROUS",
+  "company": "REMEDYREPACK INC.",
+  "date": "09/02/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Metoprolol succinate",
+  "company": "Major Pharmaceuticals",
+  "date": "25/02/2022",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "Gemfibrozil",
+  "company": "McKesson Contract Packaging",
+  "date": "24/07/2022",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "Aspirin",
+  "company": "CVS Pharmacy",
+  "date": "17/11/2021",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "CORTICOTROPIN, OYSTER SHELL CALCIUM CARBONATE, CRUDE, MAGNESIUM SULFATE HEPTAHYDRATE, POTASSIUM PHOSPHATE, DIBASIC, NITRIC ACID, BENZOIC ACID, SILICON DIOXIDE, ARSENIC TRIOXIDE, MERCURIUS SOLUBILIS, PHOSPHORUS, ACTIVATED CHARCOAL, STRYCHNOS NUX-VOMICA SEED, ALUMINUM, PHYTOLACCA AMERICANA ROOT, BAPTISIA TINCTORIA ROOT, SILVER NITRATE, SPIGELIA ANTHELMIA, APIS MELLIFERA",
+  "company": "21st Century Homeopathics, Inc",
+  "date": "06/12/2021",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "mercaptopurine",
+  "company": "Par Pharmaceutical Companies, Inc.",
+  "date": "14/10/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Cefaclor",
+  "company": "Carlsbad Technology, Inc.",
+  "date": "04/10/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "insulin detemir",
+  "company": "Physicians Total Care, Inc.",
+  "date": "01/09/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "BAPTISIA TINCTORIA, BRYONIA, ECHINACEA ANGUSTIFOLIA, THUJA OCCIDENTALIS, VISCUM ALBUM",
+  "company": "HOMEOLAB USA INC",
+  "date": "17/05/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Guaifenesin",
+  "company": "Meijer Distribution Inc",
+  "date": "04/10/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "Baptisia tinctoria, Echinacea, Phytolacca decandra, Aconitum napellus, Arsenicum album, Belladonna, Ferrum phosphoricum, Lachesis mutus, Phosphorus,",
+  "company": "Apotheca Company",
+  "date": "18/04/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "glipizide",
+  "company": "State of Florida DOH Central Pharmacy",
+  "date": "07/11/2021",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Canary Grass",
+  "company": "Nelco Laboratories, Inc.",
+  "date": "13/03/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "bisoprolol fumarate and hydrochlorothiazide",
+  "company": "Unichem Pharmaceuticals (USA), Inc.",
+  "date": "04/10/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "WHOLE ARNICA PLANT",
+  "company": "Remedy Makers",
+  "date": "20/02/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Naproxen Sodium",
+  "company": "Blenheim Pharmacal, Inc.",
+  "date": "26/12/2021",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Dexamethasone",
+  "company": "Roxane Laboratories, Inc",
+  "date": "10/01/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "Gentamicin Sulfate",
+  "company": "E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.",
+  "date": "28/07/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Calcium polycarbophil",
+  "company": "American Sales Company",
+  "date": "26/04/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "NAFCILLIN SODIUM",
+  "company": "Teva Parenteral Medicines, Inc.",
+  "date": "15/09/2022",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "Alcohol",
+  "company": "Best Accessory Group",
+  "date": "08/07/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "metoprolol tartrate and hydrochlorothiazide",
+  "company": "Physicians Total Care, Inc.",
+  "date": "15/05/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "Diphenhydramine HCl",
+  "company": "SIMPLY RIGHT (Sam's West, Inc.)",
+  "date": "03/01/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "OCTINOXATE",
+  "company": "Parfums Christian Dior",
+  "date": "02/10/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "Salicylic Acid",
+  "company": "Stratus Pharamceuticals, Inc",
+  "date": "15/11/2021",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Metronidazole",
+  "company": "Pfizer Labs, Division of Pfizer Inc",
+  "date": "12/05/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "zinc oxide",
+  "company": "Sion Biotext Medical Ltd",
+  "date": "15/01/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "GABAPENTIN",
+  "company": "REMEDYREPACK INC.",
+  "date": "03/11/2021",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "Oatmeal",
+  "company": "Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.",
+  "date": "23/02/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Pectin",
+  "company": "Prestige Brands Holdings, Inc.",
+  "date": "29/11/2021",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "Sotalol Hydrochloride",
+  "company": "Golden State Medical Supply, Inc.",
+  "date": "21/06/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Allergena for Pets",
+  "company": "Meditrend, Inc. DBA Progena Professional Formulations",
+  "date": "03/06/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "neomycin, polymixin, bacitracin",
+  "company": "Ultra Seal Corporation",
+  "date": "07/07/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "levothyroxine sodium",
+  "company": "Mylan Institutional Inc.",
+  "date": "17/07/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "Benzalkonium Chloride",
+  "company": "Townley, Inc.",
+  "date": "13/09/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "Doxycycline Hyclate",
+  "company": "Physicians Total Care, Inc.",
+  "date": "28/10/2021",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "LIDOCAINE HYDROCHLORIDE,EPINEPHRINE BITARTRATE",
+  "company": "APP Pharmaceuticals, LLC",
+  "date": "07/11/2021",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "Ketoprofen",
+  "company": "Rebel Distributors Corp",
+  "date": "04/09/2022",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "acetaminophen, dextromethorphan hbr, guaifenesin, phenylephrine hcl",
+  "company": "Meijer Distribution Inc",
+  "date": "28/11/2021",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "Lidocaine Hydrochloride",
+  "company": "REMEDYREPACK INC.",
+  "date": "01/05/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "antivenin (micrurus fulvius)",
+  "company": "Wyeth Pharmaceuticals Company",
+  "date": "08/07/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "HAND SANITIZER",
+  "company": "Yusef Manufacturing Laboratories, LLC",
+  "date": "26/08/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Perphenazine",
+  "company": "Sandoz Inc",
+  "date": "31/01/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "OCTINOXATE",
+  "company": "Ventura Corporation (San Juan, P.R)",
+  "date": "26/03/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "sildenafil citrate",
+  "company": "Cardinal Health",
+  "date": "13/10/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "ZINC OXIDE",
+  "company": "Pacifica Inc.",
+  "date": "18/05/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Polyethylene glycol, Propylene glycol",
+  "company": "Meijer Distribution Inc",
+  "date": "24/12/2021",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Nicotine Polacrilex",
+  "company": "Topco Associates LLC",
+  "date": "13/04/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "CANDIDA PARAPSILOSIS and PENICILLIUM GLABRUM",
+  "company": "Syntrion GmbH",
+  "date": "23/06/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Piroxicam",
+  "company": "Rebel Distributors Corp",
+  "date": "10/06/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Hydrocortisone",
+  "company": "Physicians Total Care, Inc.",
+  "date": "15/04/2022",
+  "ctask": null,
+  "type": "Yearly"
+}, {
+  "name": "OCTINOXATE, OXYBENZONE",
+  "company": "Meijer Distribution Inc",
+  "date": "11/10/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "SERTRALINE HYDROCHLORIDE",
+  "company": "Physicians Total Care, Inc.",
+  "date": "06/08/2022",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "Docuset Sodium",
+  "company": "Ajes Pharmaceuticals,LLC",
+  "date": "11/08/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Colloidal Oatmeal",
+  "company": "Phillips Company",
+  "date": "15/09/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Turkey",
+  "company": "Nelco Laboratories, Inc.",
+  "date": "13/03/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "Acetaminophen, Aspirin, Caffeine",
+  "company": "Dolgencorp, LLC",
+  "date": "03/02/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "ZINC OXIDE",
+  "company": "Weleda A.G. Schwabisch Gmund, Zweigniederlassung der Weled",
+  "date": "28/12/2021",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "betula populifolia pollen",
+  "company": "Allergy Laboratories, Inc.",
+  "date": "15/12/2021",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "Metolazone",
+  "company": "McKesson Packaging Services a business unit of McKesson Corporation",
+  "date": "14/10/2022",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "Ibuprofen",
+  "company": "BJWC",
+  "date": "11/01/2022",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "CARBAMAZEPINE",
+  "company": "Clinical Solutions Wholesale",
+  "date": "29/10/2021",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "Larix Decidua",
+  "company": "BioActive Nutritional, Inc.",
+  "date": "05/06/2022",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "finasteride",
+  "company": "Merck Sharp & Dohme Corp.",
+  "date": "21/10/2021",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "Ibuprofen",
+  "company": "BJWC (Berkley & Jensen / BJ's)",
+  "date": "11/07/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "Acetaminophen, Dextromethorphan Hydrobromide, Phenylephrine Hydrochloride",
+  "company": "Amerisource Bergen",
+  "date": "18/03/2022",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Atenolol",
+  "company": "Pack Pharmaceuticals LLC",
+  "date": "14/12/2021",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "Acetaminophen, Dextromethorphan Hydrobromide, Doxylamine Succinate, Pseudoephedrine Hydrochloride",
+  "company": "HyVee Inc",
+  "date": "26/10/2021",
+  "ctask": null,
+  "type": "Often"
+}, {
+  "name": "Donepezil hydrochloride",
+  "company": "NCS HealthCare of KY, Inc dba Vangard Labs",
+  "date": "09/07/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "pioglitazone",
+  "company": "Takeda Pharmaceuticals America, Inc.",
+  "date": "27/10/2021",
+  "ctask": null,
+  "type": "Never"
+}, {
+  "name": "Liothyronine Sodium",
+  "company": "Paddock Laboratories, Inc.",
+  "date": "11/04/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Clindamycin hydrochloride",
+  "company": "Northwind Pharmaceuticals",
+  "date": "04/10/2022",
+  "ctask": null,
+  "type": "Seldom"
+}, {
+  "name": "Penicillin V Potassium",
+  "company": "Liberty Pharmaceuticals, Inc.",
+  "date": "13/05/2022",
+  "ctask": null,
+  "type": "Daily"
+}, {
+  "name": "Anastrozole",
+  "company": "BluePoint Laboratories",
+  "date": "15/01/2022",
+  "ctask": null,
+  "type": "Once"
+}, {
+  "name": "Acetaminophen, Diphenhydramine HCl and Phenylephrine HCl",
+  "company": "DOLGENCORP, LLC",
+  "date": "05/04/2022",
+  "ctask": null,
+  "type": "Weekly"
+}, {
+  "name": "Zolpidem tartrate",
+  "company": "Bryant Ranch Prepack",
+  "date": "17/10/2022",
+  "ctask": null,
+  "type": "Monthly"
+}, {
+  "name": "Titanium Dioxide",
+  "company": "Bare Escentuals Beauty, Inc.",
+  "date": "16/04/2022",
+  "ctask": null,
+  "type": "Monthly"
+}]

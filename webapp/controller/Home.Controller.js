@@ -24,7 +24,6 @@ sap.ui.define(
 
     return BaseController.extend("sap.ui.demo.walkthrough.controller.Home", {
       onInit: function () {
-        
         let table = new JSONModel("../model/vacc.json");
         var oModel = new JSONModel();
         oModel.setData({
@@ -263,7 +262,7 @@ sap.ui.define(
               text: "Online meeting",
               type: CalendarDayType.Type08,
               icon: "sap-icon://home",
-              startDate: new Date("2022", "9", "17", "15", "30"),
+              startDate: new Date("2022", "6", "17", "15", "30"),
               endDate: new Date("2022", "10", "17", "16", "30"),
             },
           ],
@@ -285,13 +284,61 @@ sap.ui.define(
         };
         let calendar = new JSONModel(myViewConfig);
         this.getView().setModel(calendar, "view");
-        
       },
 
       onBeforeRendering: function () {
-        this.getView().getParent().getParent().getParent().byId("shellBar").setVisible(true);
+        this.getView()
+          .getParent()
+          .getParent()
+          .getParent()
+          .byId("shellBar")
+          .setVisible(true);
       },
+      handleAppointmentDrop: function (oEvent) {
+        var oAppointment = oEvent.getParameter("appointment"),
+          oStartDate = oEvent.getParameter("startDate"),
+          oEndDate = oEvent.getParameter("endDate"),
+          bCopy = oEvent.getParameter("copy"),
+          sAppointmentTitle = oAppointment.getTitle(),
+          oModel = this.getView().getModel(),
+          oNewAppointment;
+  
+        if (bCopy) {
+          oNewAppointment = {
+            title: sAppointmentTitle,
+            icon: oAppointment.getIcon(),
+            text: oAppointment.getText(),
+            type: oAppointment.getType(),
+            startDate: oStartDate,
+            endDate: oEndDate
+          };
+          oModel.getData().appointments.push(oNewAppointment);
+          oModel.updateBindings();
+        } else {
+          oAppointment.setStartDate(oStartDate);
+          oAppointment.setEndDate(oEndDate);
+        }
+  
+        MessageToast.show("Appointment with title \n'"
+          + sAppointmentTitle
+          + "'\n has been " + (bCopy ? "create" : "moved")
+        );  
+      },
+      handleAppointmentResize: function (oEvent) {
+        var oAppointment = oEvent.getParameter("appointment"),
+          oStartDate = oEvent.getParameter("startDate"),
+          oEndDate = oEvent.getParameter("endDate"),
+          sAppointmentTitle = oAppointment.getTitle();
 
+        oAppointment.setStartDate(oStartDate);
+        oAppointment.setEndDate(oEndDate);
+
+        MessageToast.show(
+          "Appointment with title \n'" +
+            sAppointmentTitle +
+            "'\n has been resized"
+        );
+      },
       handleAppointmentSelect: function (oEvent) {
         var oAppointment = oEvent.getParameter("appointment"),
           oStartDate,
@@ -329,7 +376,7 @@ sap.ui.define(
           bAllDate = true;
         }
 
-        oModel.getData().allDay = bAllDate;
+        // oModel.getData().allDay = bAllDate;
         oModel.updateBindings();
 
         if (!this._pDetailsPopover) {

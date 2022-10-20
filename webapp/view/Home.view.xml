@@ -1,17 +1,15 @@
 <mvc:View xmlns:unified="sap.ui.unified" xmlns:internal="sap.landvisz.internal" xmlns:f="sap.f" xmlns:u="sap.uxap" xmlns:core="sap.ui.core" controllerName="sap.ui.demo.walkthrough.controller.Home" xmlns="sap.m" xmlns:fb="sap.ui.comp.filterbar" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
     <Page id="vacc" backgroundDesign="Transparent">
-
-
-        <Table id="table" items="{vacc>/}" visible="true" backgroundDesign="Transparent" >
+        <Table id="table" items="{vacc>/}" visible="true" backgroundDesign="Transparent">
             <columns>
-                <Column >
+                <Column>
                     <Text text="Drug Name" />
                 </Column>
                 <Column>
-                    <Text text="Company" />
+                    <Text text="Drug Company" />
                 </Column>
                 <Column>
-                    <Text text="Data" />
+                    <Text text="Date" />
                 </Column>
                 <Column>
                     <Text text="Frequency" />
@@ -26,22 +24,19 @@
                 </cells>
             </ColumnListItem>
         </Table>
-        <VBox id="calendar" class="sapUiSmallMargin" visible="false">
+        <VBox id="calendar" class="sapUiSmallMargin" visible="false" backgroundDesign="Transparent">
             <HBox wrap="Wrap">
                 <VBox class="sapUiSmallMarginEnd">
                     <Label text="Drag and Drop" labelFor="enableAppointmentsDragAndDrop" />
-                    <Switch id="enableAppointmentsDragAndDrop" state="{settings>/enableAppointmentsDragAndDrop}" />
-                </VBox>
-                <VBox class="sapUiSmallMarginEnd">
-                    <Label text="Resize Appointments" labelFor="enableAppointmentsResize" />
-                    <Switch id="enableAppointmentsResize" state="{settings>/enableAppointmentsResize}" />
+                    <Switch id="enableAppointmentsDragAndDrop" customTextOn="Act." customTextOff="Dea." state="{settings>/enableAppointmentsDragAndDrop}" />
                 </VBox>
             </HBox>
             <SinglePlanningCalendar
                 id="SPC1"
+                class="sapUiSmallMarginTop"
                 title="Drugs Calendar"
                 appointmentDrop="handleAppointmentDrop"
-                appointmentResize="handleAppointmentResize"
+                enableAppointmentsDragAndDrop="{settings>/enableAppointmentsDragAndDrop}"
                 appointmentCreate="handleAppointmentCreateDnD"
                 appointmentSelect="handleAppointmentSelect"
                 headerDateSelect="handleHeaderDateSelect"
@@ -50,7 +45,7 @@
                 appointments="{path: '/appointments'}"
             >
                 <actions>
-                    <Button id="addNewAppointment" text="Create/Modify" press="handleAppointmentCreate" tooltip="Add new appointment" />
+                    <Button id="addNewAppointment" text="Create" press="handleAppointmentCreate" tooltip="Add new appointment" />
                 </actions>
                 <views>
                     <SinglePlanningCalendarDayView key="DayView" title="Day" />
