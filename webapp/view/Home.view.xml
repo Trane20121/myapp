@@ -1,24 +1,10 @@
 <mvc:View xmlns:unified="sap.ui.unified" xmlns:internal="sap.landvisz.internal" xmlns:f="sap.f" xmlns:u="sap.uxap" xmlns:core="sap.ui.core" controllerName="sap.ui.demo.walkthrough.controller.Home" xmlns="sap.m" xmlns:fb="sap.ui.comp.filterbar" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
-    <Page id="vacc">
-        <customHeader>
-            <Toolbar>
-                <Button icon="sap-icon://log" press="onLogOff" text="Log Out" type="Emphasized" />
-                <ToolbarSpacer />
-                <Title text="Drugs Tracker" level="Auto" />
-                <ToolbarSpacer />
-            </Toolbar>
-        </customHeader>
-        <subHeader>
-            <Toolbar>
-                <ToolbarSpacer />
-                <RadioButton id="rbtable" text="Table Format" selected="true" groupName="GroupA" valueState="Information" select="onSelect" />
-                <RadioButton id="rbcalendar" text="Calendar" groupName="GroupA" selected="false" valueState="Error" select="onSelect" />
-                <ToolbarSpacer />
-            </Toolbar>
-        </subHeader>
-        <Table id="table" items="{vacc>/}" visible="true">
+    <Page id="vacc" backgroundDesign="Transparent">
+
+
+        <Table id="table" items="{vacc>/}" visible="true" backgroundDesign="Transparent" >
             <columns>
-                <Column>
+                <Column >
                     <Text text="Drug Name" />
                 </Column>
                 <Column>

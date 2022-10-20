@@ -57,7 +57,9 @@ sap.ui.define(
       onLogSucc: function () {
         var oRouter = this.getOwnerComponent().getRouter();
         oRouter.navTo("home");
-      }
+        
+      },
+      
     });
   }
 );

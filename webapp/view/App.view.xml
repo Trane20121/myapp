@@ -1,16 +1,19 @@
 <mvc:View controllerName="sap.ui.demo.walkthrough.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.f" xmlns:layout="sap.ui.layout" height="100%" displayBlock="true">
-	<f:ShellBar id="shellBar" title="Application Title" secondTitle="Short description" homeIcon="./resources/sap/ui/documentation/sdk/images/logo_ui5.png" showCopilot="true" showSearch="true" showNotifications="true" showProductSwitcher="true" notificationsNumber="2">
-		<f:menu>
-			<Menu>
-				<MenuItem text="Flight booking" icon="sap-icon://flight" />
-				<MenuItem text="Car rental" icon="sap-icon://car-rental" />
-			</Menu>
-		</f:menu>
-		<f:profile>
-			<Avatar initials="UI" />
-		</f:profile>
-	</f:ShellBar>
-	<Shell>
-		<App id="app" class="myAppDemoWT" />
-	</Shell>
+    <f:ShellBar id="shellBar" title="Drugs Tracker" homeIcon="https://cdn-icons-png.flaticon.com/512/169/169837.png"  showNotifications="true" notificationsNumber="Auto">
+        <f:menu>
+            <Menu itemSelected="onSelect">
+                <MenuItem text="Table View" icon="https://cdn-icons-png.flaticon.com/512/4598/4598376.png" press="onSelect"/>
+                <MenuItem text="Calendar" icon="https://cdn-icons-png.flaticon.com/512/1068/1068973.png" press="onSelect"/>
+            </Menu>
+        </f:menu>
+        <f:profile>
+            <Avatar src="{user>avatar}" backgroundColor="Transparent" />
+        </f:profile>
+        <f:additionalContent>
+            <Button icon="sap-icon://log" press="onLogOff" text="Log Out"/>
+        </f:additionalContent>
+    </f:ShellBar>
+    <Shell backgroundOpacity="0">
+        <App id="app" class="myAppDemoWT" />
+    </Shell>
 </mvc:View>

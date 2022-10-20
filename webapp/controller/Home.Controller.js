@@ -24,6 +24,7 @@ sap.ui.define(
 
     return BaseController.extend("sap.ui.demo.walkthrough.controller.Home", {
       onInit: function () {
+        
         let table = new JSONModel("../model/vacc.json");
         var oModel = new JSONModel();
         oModel.setData({
@@ -284,6 +285,7 @@ sap.ui.define(
         };
         let calendar = new JSONModel(myViewConfig);
         this.getView().setModel(calendar, "view");
+        
       },
 
       onBeforeRendering: function () {

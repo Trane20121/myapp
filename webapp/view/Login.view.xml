@@ -30,7 +30,7 @@
                     </HBox>
                     <HBox justifyContent="Center">
                         <items>
-                            <Button id="go" text="Log In" width="100px" press=".onLogin"  type="Emphasized" />
+                            <Button id="go" text="Log In" width="100px" press="onLogin"  type="Emphasized" />
                         </items>
                     </HBox>
                 </VBox>
