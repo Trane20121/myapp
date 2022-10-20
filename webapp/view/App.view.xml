@@ -2,8 +2,8 @@
     <f:ShellBar id="shellBar" title="Drugs Tracker" homeIcon="https://cdn-icons-png.flaticon.com/512/169/169837.png"  showNotifications="true" notificationsNumber="Auto">
         <f:menu>
             <Menu itemSelected="onSelect">
-                <MenuItem text="Table View" icon="https://cdn-icons-png.flaticon.com/512/4598/4598376.png" press="onSelect"/>
-                <MenuItem text="Calendar" icon="https://cdn-icons-png.flaticon.com/512/1068/1068973.png" press="onSelect"/>
+                <MenuItem id="menuTable" text="Table View" icon="https://cdn-icons-png.flaticon.com/512/4598/4598376.png" press="onSelect"/>
+                <MenuItem id="menuCalendar" text="Calendar" icon="https://cdn-icons-png.flaticon.com/512/1068/1068973.png" press="onSelect"/>
             </Menu>
         </f:menu>
         <f:profile>

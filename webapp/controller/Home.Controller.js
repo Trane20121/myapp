@@ -626,23 +626,6 @@ sap.ui.define(
           oPicker.setValueState(ValueState.None);
         }
       },
-      onSelect: function (rb) {
-        let button = rb.getSource().getId();
-        switch (button) {
-          case "container-walkthrough---home--rbtable":
-            this.byId("calendar").setVisible(false);
-            this.byId("table").setVisible(true);
-            break;
-          case "container-walkthrough---home--rbcalendar":
-            this.byId("table").setVisible(false);
-            this.byId("calendar").setVisible(true);
-            break;
-          default:
-            this.byId("table").setVisible(true);
-            this.byId("calendar").setVisible(false);
-            break;
-        }
-      },
       handleAppointmentDrop: function (oEvent) {
         var oAppointment = oEvent.getParameter("appointment"),
           oStartDate = oEvent.getParameter("startDate"),
