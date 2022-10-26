@@ -1,4 +1,4 @@
-<mvc:View controllerName="sap.ui.demo.walkthrough.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.f" xmlns:layout="sap.ui.layout" displayBlock="true">
+<mvc:View  controllerName="sap.ui.demo.walkthrough.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.f" xmlns:layout="sap.ui.layout" displayBlock="true" >
     <f:ShellBar id="shellBar"  title="Drugs Tracker" homeIcon="https://cdn-icons-png.flaticon.com/512/169/169837.png" homeIconPressed="onLogOff" showNotifications="true" notificationsNumber="Auto">
         <f:menu>
             <Menu itemSelected="onSelect">
@@ -13,7 +13,7 @@
             <Button icon="sap-icon://log" press="onLogOff" text="Log Out" type="Up"  />
         </f:additionalContent>
     </f:ShellBar>
-    <Shell>
+    <Shell backgroundColor="#0f8d7f" >
         <App id="app" class="myAppDemoWT" />
     </Shell>
 </mvc:View>

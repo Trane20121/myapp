@@ -294,6 +294,7 @@ sap.ui.define(
           .byId("shellBar")
           .setVisible(true);
       },
+
       handleAppointmentDrop: function (oEvent) {
         var oAppointment = oEvent.getParameter("appointment"),
           oStartDate = oEvent.getParameter("startDate"),

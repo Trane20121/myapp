@@ -1,36 +1,46 @@
 /* App */
 html[dir="ltr"] .app {
-  margin-right: 0.125rem;
+  margin-right: 0.125rem !important;
 }
 
 html[dir="rtl"] .app {
-  margin-left: 0.125rem;
+  margin-left: 0.125rem !important;
 }
 
 /* Login */
 #__card0-contentSection {
-  display: block;
+  display: block !important;
 }
 
 .outer {
-  display: table;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  display: table !important ;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .middle {
-  display: table-cell;
-  vertical-align: middle;
+  display: table-cell !important;
+  vertical-align: middle !important;
 }
 
 .inner {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 #__data3 {
   text-align: center !important;
+}
+.img{
+  background-color: #0f8d7f;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/3140/3140341.png");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat; 
 }

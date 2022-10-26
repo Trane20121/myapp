@@ -12,15 +12,19 @@ sap.ui.define(
       "sap.ui.demo.walkthrough.controller.BaseController",
       {
         onSelect: function (rb) {
-          const table = this.byId("app").getAggregation("pages")[0].byId("table");
-          const calendar = this.byId("app").getAggregation("pages")[0].byId("calendar");
+          const table = this.byId("app")
+            .getAggregation("pages")[0]
+            .byId("table");
+          const calendar = this.byId("app")
+            .getAggregation("pages")[0]
+            .byId("calendar");
 
           if (rb.getParameter("item") === undefined) {
             var button = rb.getSource().getId();
           } else {
             var button = rb.getParameter("item").getId();
           }
-          
+
           switch (button) {
             case "container-walkthrough---app--menuTable":
               calendar.setVisible(false);

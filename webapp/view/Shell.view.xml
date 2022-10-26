@@ -7,7 +7,7 @@
             </m:Menu>
         </menu>
         <profile>
-            <m:Avatar src="{path: 'user>/name', formatter: generateAvatar}" />
+            <Avatar src="{path: 'user>/name', formatter: generateAvatar}" />
         </profile>
     </ShellBar>
 </mvc:View>
